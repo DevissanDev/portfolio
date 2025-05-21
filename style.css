@@ -952,6 +952,7 @@ border: 0px solid red;
   font-weight: 600;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
+  color: #23186e;
 }
 .timeline .text-box p{
   font-size: 1rem;
@@ -961,6 +962,7 @@ border: 0px solid red;
   margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: 500;
+  color: #23186e;
 }
 .timeline .left-container-arrow{
   height: 0;
@@ -998,7 +1000,8 @@ border: 0px solid red;
   align-items: center;
   flex-direction: column;
   border: 0px solid red ;
-  padding: 0rem 30rem;
+  padding: 0rem 28rem;
+  text-align: center;
 }
 .contactame>h3{
   color: var(--primary-color);
@@ -1028,6 +1031,7 @@ form>div:nth-child(1){
   display: flex;
   gap: 5rem;
   margin-bottom: 3rem;
+  padding: 0 0rem;
 }
 .form-group{
   display: flex;
@@ -1045,8 +1049,10 @@ form>div:nth-child(1){
 .form-group>input{
   border: none;
   border-bottom: 1px solid #23186e;
-  width: 22rem;
+  width: 25rem;
   height: 3rem;
+  font-family: "Poppins", serif;
+  font-size: 1.1rem;
 
 
 }
@@ -1066,8 +1072,10 @@ form>div:nth-child(1){
 .form-group>textarea{
   border: none;
   border-bottom: 1px solid #23186e;
-  width: 49.2rem;
+  width: 55rem;
   height: 3rem;
+ font-family: "Poppins", serif;
+ font-size: 1.1rem;
 
 
 }
@@ -1118,24 +1126,21 @@ form>div:nth-child(1){
   stroke: white;
 }
 
-@media (max-width: 700px) {
-  .contactame{
-    padding: 0rem 0rem;
-  }
-}
+
 
 /*footer*/
 footer{
-  display: flex;
   background-color: #3d155f;
   display: flex;
   flex-direction: column;
   padding: 11em 9em 2em 9em;
+  
 }
 .contacto_parte1{
   display: flex;
   gap: 16rem;
   margin-bottom: 8rem;
+  
   
 }
 .contacto_parte1>div:nth-child(2){
@@ -1260,6 +1265,40 @@ color: var(--secondary-color);
 
 .mySwiper6 .swiper-slide img {
   height: 23rem;
+}
+.contactame{
+  padding: 0rem 4rem;
+}
+
+.form-group>textarea{
+  width: 40rem;
+}
+.form-group>input{
+
+  width: 17rem;
+}
+.contacto_parte1{
+  display: flex;
+  gap: 0rem;
+  margin-bottom: 0rem;
+  flex-direction: column;
+}
+.contacto_parte1>div:nth-child(1){
+  border-bottom: 1px solid var(--secondary-color);
+  margin-bottom: 1rem;
+}
+.contacto_parte1>div:nth-child(2){
+  margin-top: 0rem;
+}
+
+.presentacion > p{
+  width: 80%;
+}
+
+footer{
+
+  padding: 4em 6em 2em 6em;
+  
 }
 
 }
