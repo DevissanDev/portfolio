@@ -156,7 +156,7 @@ document.getElementById("btnScrolldial").addEventListener("click", function() {
 
     document.addEventListener("DOMContentLoaded", () => {
       const span = document.querySelector("body > div > header > div > span:nth-child(1)");
-      const svgPath = "/img/SUBIRD.svg"; // Cambia esto por la ruta real
+      const svgPath = "img/SUBIRD.svg"; // Cambia esto por la ruta real
     
       window.addEventListener("scroll", () => {
         if (window.scrollY > 2) {
