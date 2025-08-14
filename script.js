@@ -21,6 +21,22 @@ document
       });
     }
   });
+
+document
+  .getElementById("btnScrollcendera2")
+  .addEventListener("click", function () {
+    const target = document.querySelector("#btnScrollcendera2");
+    if (target) {
+      const offset = 3 * 16; // 5rem convertido a píxeles (1rem = 16px)
+      const targetPosition =
+        target.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: targetPosition - offset,
+        behavior: "smooth",
+      });
+    }
+  });
 document.getElementById("btnScrollchat").addEventListener("click", function () {
   const target = document.querySelector("#btnScrollchat");
   if (target) {

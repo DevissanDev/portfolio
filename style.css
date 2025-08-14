@@ -252,7 +252,9 @@ body > div > header > div > span:nth-child(2) {
   font-weight: 400;
   margin-bottom: 11rem;
 }
-
+.aprende {
+  margin-top: 14rem;
+}
 /*foto*/
 .foto {
   display: flex;
@@ -278,19 +280,19 @@ body > div > header > div > span:nth-child(2) {
   .foto {
     position: absolute;
     width: 100%;
-    top: 25rem;
+    top: 21rem;
     left: 0;
     display: flex;
     justify-content: center;
   }
   .foto > img {
-    width: 23rem;
+    width: 30rem;
   }
   .presentacion > p {
     margin-bottom: 24rem;
   }
   .presentacion > h2 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .decoracion_proyectos1 {
     display: none;
@@ -736,6 +738,61 @@ body > div > header > div > span:nth-child(2) {
   color: #a6ff00;
 }
 
+/*cendera pro 2 fotos*/
+.mySwiper8 {
+  border: 2px solid rgba(0, 0, 0, 0.226);
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.226);
+}
+.mySwiper9 {
+  border-radius: 0px 0px 20px 20px;
+  border: 3px solid rgba(0, 0, 0, 0.226);
+  border-top: none;
+}
+.mySwiper9 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper8 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 25rem !important;
+  object-fit: cover;
+}
+
+.mySwiper9 .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper9 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper9 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper9 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper9 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*linea de timepo*/
 .lineadetiempo {
   position: relative;
@@ -1138,6 +1195,15 @@ footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+  .timeline .text-box h3 {
+    font-size: 2rem;
+  }
+  .timeline .text-box p {
+    font-size: 1.5rem;
+  }
+  .timeline .text-box small {
+    font-size: 1.5rem;
+  }
   .timeline .text-box {
     font-size: 13px;
   }
@@ -1191,6 +1257,7 @@ footer {
     height: auto;
   }
   .menu {
+    font-size: 1.5rem;
     top: 1.5rem;
     right: 6rem;
   }
